@@ -1,0 +1,105 @@
+<!-- http://www.sadat-sarwat.com/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>This the page.</title>
+        <meta charset="utf-8"/>
+        
+        <!-- MObile specific Meta -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        
+        <!-- stylesheet -->
+        <link href="style.css" rel="stylesheet" type="text/css">
+        
+        <!-- script jquery -->
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">           </script>
+	    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js">
+        </script>
+	
+	
+	<script type="text/javascript">
+	
+	function Slider() {
+		$(".slider #1").show("fade",500);
+		$(".slider #1").delay(5500).hide("slide",{direction:"left"},500);
+		
+		var sc = $(".slider img").size();
+		var count = 4;
+
+		setInterval(function (){
+			$(".slider #"+count).show("slide",{direction:"right"},500);
+			$(".slider #"+count).delay(5500).hide("slide",{direction:"left"},500);
+
+			if(count == sc){
+				count = 1;
+			}
+			else
+			{
+				count = count + 1;
+			}
+		},6500);
+	}
+	</script>
+    
+    </head>
+    <body onload="Slider();">
+        <div class="wrap">
+        
+            
+        <header>
+            <div class="logo">
+                <img src="images/index.png" height="50px" width="100px">
+                <h2>This is the company Logo.</h2>
+            </div>
+            <div class="description">
+                <h1>Description</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam fermentum tincidunt ex. Maecenas lobortis nec arcu ac condimentum. Mauris eu faucibus neque, vel egestas ligula. Suspendisse sed rhoncus erat. Nullam molestie leo in orci auctor tristique. Nulla lobortis consectetur euismod. </p>
+            </div>
+        </header>
+        
+        <div class="nav">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Practics Areas</a></li>
+                <li><a href="#">Probono $ PIL</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Carrer</a></li>
+            </ul>
+        </div>
+        
+            <div class="slider">
+                <img id="1" src="images/ada1.jpg" border="0" alt="first image"/>
+                <img id="2" src="images/ada2.jpg" border="0" alt="second image"/>
+                <img id="3" src="images/High-Court.jpg" border="0" alt="third image"/>
+                <img id="4" src="images/images.jpg" border="0" alt="fourth image"/>
+            </div>
+        
+            <div class="shadow"></div>    
+        
+       
+            
+        
+        <div class="multidiv">
+        <div class="first">
+            <h3>THIS IS 1ST</h3>
+            <p>Etiam faucibus lectus at justo tristique imperdiet. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse sed arcu quis risus volutpat efficitur. Praesent facilisis augue velit, eget vulputate magna ullamcorper at. </p>
+            </div>    
+        <div class="second">
+            <h3>THIS IS 2ND</h3>
+            <p>Etiam faucibus lectus at justo tristique imperdiet. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse sed arcu quis risus volutpat efficitur. Praesent facilisis augue velit, eget vulputate magna ullamcorper at. </p>
+            </div>    
+        <div class="third">
+            <h3>THIS IS 3RD</h3>
+            <p>Etiam faucibus lectus at justo tristique imperdiet. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse sed arcu quis risus volutpat efficitur. Praesent facilisis augue velit, eget vulputate magna ullamcorper at. </p>
+            </div>    
+            
+        </div>    
+        
+        <footer>
+        <h4>Copyright@2015 and Developed by MD.JUlHAS HOSSAIN (MOHON)</h4>    
+        </footer>    
+            
+        </div>
+    </body>
+</html>
