@@ -1,0 +1,6 @@
+c:\users\mohon khan\documents\visual studio 2013\Projects\ShoppingAdder\ShoppingAdder\bin\ShoppingAdder.dll.config
+c:\users\mohon khan\documents\visual studio 2013\Projects\ShoppingAdder\ShoppingAdder\bin\ShoppingAdder.dll
+c:\users\mohon khan\documents\visual studio 2013\Projects\ShoppingAdder\ShoppingAdder\bin\ShoppingAdder.pdb
+c:\users\mohon khan\documents\visual studio 2013\Projects\ShoppingAdder\ShoppingAdder\obj\Debug\ShoppingAdder.csprojResolveAssemblyReference.cache
+c:\users\mohon khan\documents\visual studio 2013\Projects\ShoppingAdder\ShoppingAdder\obj\Debug\ShoppingAdder.dll
+c:\users\mohon khan\documents\visual studio 2013\Projects\ShoppingAdder\ShoppingAdder\obj\Debug\ShoppingAdder.pdb
